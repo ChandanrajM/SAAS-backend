@@ -22,3 +22,32 @@ It includes:
 ---
 
 ## 🗂 Folder Structure
+saas-backend/
+├── src/
+│ ├── config/
+│ │ └── db.js
+│ ├── controllers/
+│ │ └── authController.js
+│ ├── middleware/
+│ │ └── authMiddleware.js
+│ ├── models/
+│ │ └── User.js
+│ ├── routes/
+│ │ └── authRoutes.js
+│ └── app.js
+├── .env
+├── server.js
+├── package.json
+└── package-lock.json
+
+---
+
+## ⚡ Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/saas-backend.git
+cd saas-backend
+npm install
+npm run dev
